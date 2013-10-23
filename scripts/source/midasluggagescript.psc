@@ -1,8 +1,8 @@
-Scriptname MidasSCPTLuggage extends ObjectReference  
+Scriptname MidasLuggageScript extends ObjectReference  
 
-ObjectReference Property MyChest  Auto
+ObjectReference Property ChestRef  Auto
 
 EVENT onActivate(objectReference actronaut)
 ; 	debug.trace(Sending +getLInkedRef()+ an activate from +actronaut)
-	MyChest.activate(actronaut)
+	ChestRef.activate(actronaut)
 endEVENT  
